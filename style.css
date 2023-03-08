@@ -1,0 +1,228 @@
+body {
+    margin: 0%;
+}
+.border1 {
+    width: 20rem;
+    height: 3px;
+    border-top: 1px solid rgba(187, 180, 180, 0.473);
+    border-bottom: 1px solid rgba(187, 180, 180, 0.473);
+}
+.container{
+    margin:auto;
+    width: 70%;
+
+}
+/********************* start header  ******************/
+.father1 {
+    background-color: rgba(255, 255, 255, 0.836);
+}
+.pic1 img {
+    position: relative;
+    height: 450px;
+    z-index: -1;
+
+}
+.child1 {
+    position: absolute;
+    top: 7rem;
+    left: 37rem;
+    text-align: center;
+
+}
+.name {
+    font-size: 45px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+.email {
+    color: rgba(0, 0, 0, 0.671);
+    margin-top: 1px;
+}
+.pic2 img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 7px solid rgba(155, 150, 150, 0.884);
+}
+    /********************* end header  ******************/
+
+    /************************ start nav *****************/
+.links{
+    border-top: 2px solid rgba(187, 180, 180, 0.473);
+    border-bottom: 2px solid rgba(187, 180, 180, 0.473);
+}
+.ancor {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 0%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.links a {
+    text-decoration: none;
+    margin-left: 60px;
+    color: rgb(94, 88, 88);
+    text-transform: uppercase;
+}
+        /************************ end nav *****************/
+
+        /****************** start services ***************/
+.services {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    color: rgb(54, 53, 53);
+    align-items: center;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+            /****************** end services ***************/
+
+        /************************ start read **********************/
+.read{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: small;
+    color: rgb(94, 88, 88);
+    flex-wrap: wrap;
+}
+.read div{
+    width: 23%;
+}
+.read button{
+    background-color: white;
+    padding: 7px 30px 7px 30px;
+    border: none;
+    border: 1px solid black;
+}
+.read button:hover {
+    background-color:rgb(184, 11, 77);
+    color: white;
+}
+        /************************ end read **********************/
+
+    /******************** star recentworks *****************/
+.recentworks{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    color: rgb(54, 53, 53);
+    align-items: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+    /******************** end recentworks *****************/
+
+    /***************** star details  *****************/
+.details{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.details img{
+    width: 280px;
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 0%;
+}
+.details h4{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.spanred{
+    display:flex;
+    color: red;
+    justify-content: center;
+}
+.border2{
+    border-left: 1px solid rgb(73, 70, 70);
+    border-right: 1px solid rgb(73, 70, 70);
+    height: 15px;
+    width: 3px;
+    margin: 3px;
+}
+    /***************** end details  *****************/
+
+    /****************** star template *******************/
+.template{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 15px;
+    border: 6px rgba(0, 0, 0, 0.356) double;
+    background-color: rgba(0, 174, 255, 0.062);
+    background-clip: padding-box;
+}
+.template p{
+    width: 65%;
+}
+.template button{
+    padding: 15px 60px ;
+    background: none;
+    background-color:rgba(184, 11, 77, 0.575) ;
+    color: white;
+    border: none;
+}
+.template button:hover{
+    background-color:rgb(184, 11, 77) ;
+}
+    /****************** end template *******************/
+
+    /****************** start clients ******************/
+.clients{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    color: rgb(54, 53, 53);
+    align-items: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+    /****************** end clients ******************/
+
+    /***************** start company *************/
+.company {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+}
+        /***************** end company *************/
+
+    /***************** start hotline **************/
+.hotline{
+        background-color:rgb(39, 36, 36);
+        margin-top: 30px;
+}
+.contacts{
+        display: flex;
+        color:rgba(172, 161, 161, 0.979);
+}
+.contacts h2{
+    text-transform: capitalize;
+}
+.contacts div{
+        padding: 12px;
+}
+        /***************** end hotline **************/
+
+        /***************** start footer ****************/
+.foot{
+    background-color:rgba(0, 0, 0, 0.938);
+}
+.footers{
+    display: flex;
+    justify-content: space-between;
+    color:rgba(172, 161, 161, 0.979);
+    font-size: small;
+}
+            /***************** end footer ****************/
+
